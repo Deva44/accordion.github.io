@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+          <div class="accordion" id="accordion-container">
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cse-collapse">cse</button>
+                </h1>
+                <div>
+                    <div id="cse-collapse" class="accordion-collapse collapse" data-bs-parent="#accordion-container">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#ece-collapse">ece</button>
+                </h1>
+                <div>
+                    <div id="ece-collapse" class="accordion-collapse collapse" data-bs-parent="#accordion-container">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#mech-collapse">mechanical</button>
+                </h1>
+                <div>
+                    <div id="mech-collapse" class="accordion-collapse collapse" data-bs-parent="#accordion-container">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+          <h1>tooltips</h1>
+          <button data-toggle="tooltip" class="p-4 bg-danger rounded-3 w-50"  title="placed mouse on cse">cse</button>
+          <button data-toggle="tooltip" class="p-4 bg-info rounded-3 w-50" title="placed mouse on ece">ece</button>
+          <button data-toggle="tooltip" class="p-4 bg-secondary rounded-3 w-50"  title="placed mouse on eee">eee</button>
+          <button data-toggle="tooltip" class="p-4 bg-warning rounded-3 w-50" title="placed mouse on mech">mech</button>
+          
+          <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" id="dropdown-button" aria-expanded="false">departments</button>
+            <ul class="dropdown-menu " aria-labelledby="dropdown-button">
+                <li><a class="dropdown-item" href="#">cse</a></li>
+                 <li><a class="dropdown-item" href="#">ece</a></li>
+                <li><a class="dropdown-item" href="#">ece</a></li>
+
+            </ul>
+          </div>
+          
+    </body>
+</html>
